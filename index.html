@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+  <style>
+    body{
+      background: Black;
+    }
+    
+    .Game{
+      position: absolute;
+      height: 550px;
+      width: 550px;
+      top: 50%;
+      left: 50%;
+      background: whitesmoke;
+      border: 1.3px dashed Black;
+      border-radius: 6px;
+      padding: 4px;
+      text-align: center;
+      border-top-width: 1.5px;
+      border-right-width: 1.5px;
+      transform: translate(-50%, -50%);
+      transition: border 0.5s;
+    }
+    
+    button{
+      background: Gold;
+      border: 1.2px solid gold;
+      border-radius: 6px;
+      padding: 3px;
+      transition: padding 0.3s;
+    }
+    
+    button:hover{
+    padding: 3.5px;
+    }
+    
+    .Game:hover{
+      border: 1.31px dashed darkgoldenrod;
+    }
+    
+    .Game h1{
+      background-image: linear-gradient(to right, red, black, gray);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    
+    .Game p{
+      font-size: 10px;
+      color: Black;
+    }
+    
+    p.E{
+      color: coral;
+    }
+    
+    p.O{
+      color: DarkGray;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+  
+  <div class="Game">
+    <h1>DemonicHUB | V2 | GAME</h1>
+    <br>
+    <p>Probability:</p>
+    <p class="E">Keyless LifeTime = 0.8%</p>
+    <p class="E">Keyless 1 Month = 1.5%</p>
+    
+    <button onclick="Point()">Start Getting Ads!</button>
+    
+    <h1>INFO</h1>
+    <br>
+    <p class="O">You can get 1 ad per 5 clicks.</p>
+    <p class="O">Updates Every Day!</p>
+  </div>
+
+
+<script>
+  function Point(){
+    
+  var Keyless = Math.floor(Math.random() * 280) + 1;
+  
+  if( Keyless === 1){
+    alert("You winned keyless lifetime, take screenshot of this and send this to alan11ago#8475");
+  }
+    else{
+  var Ads = [
+  "https://link-hub.net/969782/ad-1",
+  "https://workink.net/1RGj/lpvyk730",
+  "https://workink.net/1RGj/lpvykjuj",
+  "https://workink.net/1RGj/lpvykwno",
+  "https://workink.net/1RGj/lpvylt9e",
+  "https://workink.net/1RGj/lpvym3pd",
+  "https://workink.net/1RGj/lpvyma8k",
+  "https://workink.net/1RGj/lpvymg6a",
+  "https://workink.net/1RGj/lpvymlxw",
+  "https://workink.net/1RGj/lpvymrae",
+  "https://workink.net/1RGj/lpvymvna",
+  "https://workink.net/1RGj/lpvyn00i",
+  "https://cuty.io/IMjrgN0vb",
+  "https://cuty.io/CjdPn44oG",
+  "https://cuty.io/PZVo45v",
+  "https://workink.net/1RGj/lpw1w861",
+  "https://workink.net/1RGj/lpw1wd9d",
+  "https://workink.net/1RGj/lpw1wlhc",
+  "https://workink.net/1RGj/lpw1wqsc",
+  "https://workink.net/1RGj/lpw1wvgp",
+  "https://workink.net/1RGj/lpw1x2oq",
+  "https://workink.net/1RGj/lpw1x79d",
+  "https://workink.net/1RGj/lpw1xd25",
+  "https://workink.net/1RGj/lpw1xid7",
+  "https://workink.net/1RGj/lpw1xokg",
+  "https://link-hub.net/969782/ad-26",
+  "https://cuty.io/iVUTuWiZzA",
+  "https://cuty.io/aJRiL8iqXJnu",
+  "https://cuty.io/H9s6Dey",
+  "https://cuty.io/rkolmopss",
+  "https://cuty.io/nexvNXPQk",
+  "https://cuty.io/CSCWN6zo",
+  "https://cuty.io/FpwbHtMCEoX",
+  "https://cuty.io/DuMTPGZMX",
+  "https://cuty.io/fzQdYDofTl",
+  "https://cuty.io/vvlhMHVuEFgF",
+  "https://cuty.io/hekKtzohq",
+  "https://cuty.io/w29CgZb5MO7Q",
+  "https://cuty.io/wNB3VjQImV1O",
+  "https://cuty.io/YexxS5YY",
+  "https://cuty.io/GClk",
+  "https://cuty.io/0kvuLZex",
+  "https://cuty.io/Rq88tl",
+  "https://rkns.link/drhz4"
+];
+
+var Get = Math.floor(Math.random() * Ads.length);
+
+var AdFinal = Ads[Get];
+
+window.location.href=AdFinal;
+
+  }
+  }
+</script>
+</body>
+
+</html>
